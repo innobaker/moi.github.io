@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Food</title>
+    <style>
+        body{
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            filter: drop-shadow(20px);
+            filter: brightness(20px);
+        }
+		.form-header {
+		text-align:center;
+		margin-bottom:20px;
+		background-color:blue;
+}
+
+.contact-form {
+max-width: 500px;
+margin: 0 auto;
+padding: 20px;
+border:5px solid #ccc;
+border-radius: 10px;
+box-sizing: border-box;
+text-align: center;
+margin-top: 20px;
+}
+.form-header {
+margin-bottom: 20px;
+}
+
+.form
+{
+text-align: left;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+label {
+color:silver;
+display: block;
+margin-bottom: 5px;
+}
+
+input[type="text"]
+input[type="email"]
+input[type="address"]
+input[type="number"]
+input, textarea 
+{
+color:silver;
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border: 5px solid #ccc;
+border-radius: 10px;
+box-sizing: border-box;
+}
+input[type="submit"] {
+width: 100%;
+padding: 10px;
+background-color:forestgreen;
+color: rosybrown;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+input[type="submit"]:hover {
+background-color: lightcyan;
+color:white;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+    </style>
+</head>
+<body background="image/bg.jpeg">
+    
+    <div>
+        <img src="image/logonew.JPG" alt="logo"  style="float: left; height: 8rem; width: 15rem; margin-top: 0rem;">
+        <br><br>
+            
+    <ul class="container1">
+        <li id="l1"><a href="home.html"> Home</a></li>
+        <li id="l2"><a href="menu.html"> Menu</a></li>
+        <li id="l3"><a href="chefs.html"> Chefs</a></li>
+        <li id="l4"><a href="gallery.html"> Gallery</a></li>
+        <li id="l6"><a href="about us.html"> About Us</a></li>
+        <li id="l5"><a href="contact us.html"> Contact Us</a></li>
+    </ul>
+   
+</div>
+
+<div class="contact-form">
+	<div class="form-header">
+		<h2>CONTACT US</h2>
+	</div>
+	<form>
+
+		<div class="form-group">
+	<form action="submit.php"method="post">
+		<label for=" Your Name"> Your Name:</label>
+		<input type="text" id=" your name"name=" your name"required><br><br>
+	</div>
+
+         <div class="form-group">
+		<label for="Your Email">Your Email:</label>
+		<input type="your email" id="your email"name="your email"required><br><br>
+	</div>
+
+         <div class="form-group">
+		<label for="Your Address">Your Address:</label>
+		<input type="Your Address" id="Your Address"name="Your Address"required><br><br>
+	</div>
+
+         <div class="form-group">
+		<label for="Your Number">Your Number:</label>
+		<input type="Your Number" id="Your Number"name="Your Number"required><br><br>
+	</div>
+
+         <div class="form-group">
+        <label for="Say Somethig">Say Something:</label>
+		<textarea id="Say Something"name="Say Something"rows="4" cols="30"required></textarea><br><br>
+	</div>
+
+		<input type="submit" value="submit">
+		</form>
+	</div>
+
+<footer>
+<div class="footer-content">
+				<p style="color: blue">&copy;2023 RAMZFOOD RESTAURANT.All rights reserved</p>
+			<div class="social-icons">
+				<a href="#" class="social-icon">
+					<img src="logo/instagram.png" alt="instagram">
+				</a>
+
+				<a href="#" class="social-icon">
+					<img src="logo/twitter.png" alt="twitter">
+				</a>
+
+				<a href="#" class="social-icon">
+					<img src="logo/whatsapp.png" alt="twitter">
+				</a>
+
+               <a href="#" class="social-icon">
+					<img src="logo/yahoo.png" alt="twitter">
+				</a>
+
+				<a href="#" class="social-icon">
+					<img src="logo/pinterest.png" alt="twitter">
+				</a>
+			</div>
+
+
+
+
+
+
+<style>
+.footer {
+	     background-color: red;
+        padding: 20px;
+		text-align: center;
+		border-top: 1px solid #ccc;
+}
+.footer-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.social-icons {
+	margin-top: 10px;
+	
+}
+.social-icon {
+	display: inline-block;
+	margin-right: 10px;
+	transition: transform 0.3s ease-in-out;
+}
+.social-icon:last child {
+	margin-right: 0;
+}
+.social-icon img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s ease-in-out;
+}
+.social-icon:hover {
+	transform: scale(1.1);
+}
+.social-icon img:hover {
+	transform: rotate(360deg);
+}
+</style> 
+</footer>
+    
+</body>
+</html>
